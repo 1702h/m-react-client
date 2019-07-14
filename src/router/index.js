@@ -4,7 +4,7 @@ import Login from '../pages/Login.js'
 import List from '../pages/List.js'
 
 
-export const router_single = [
+const router_single = [
   {
     path: '/',
     exact: true,
@@ -42,7 +42,6 @@ class Routers extends React.Component {
       <Switch>
         {router}
       </Switch>
-
     );
   }
 }
